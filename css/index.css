@@ -112,6 +112,9 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background: teal;
+}
 
 .bottom-content {
     display: flex;
