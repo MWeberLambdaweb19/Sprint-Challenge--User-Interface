@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family:'Rubik', sans-serif;
+}
+nav img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,7 +130,7 @@ p {
     justify-content: center;
 }
 
-.box1 {
+.box.box1 {
     background: teal;
 }
 
