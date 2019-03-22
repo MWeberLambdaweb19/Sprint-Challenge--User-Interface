@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,11 +72,20 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: flex-start;
+}
+header img {
+    height: 40px;
+    margin-top: 25px;
+}
 nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+
 }
 nav a {
     text-decoration: none;
@@ -133,6 +143,36 @@ nav img {
     align-items: center;
     justify-content: center;
 }
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
 
 .box.box1 {
     background: teal;
@@ -153,6 +193,7 @@ nav img {
 }
 
 footer {
+    height: 100%;
     width: 100%;
     background: black;
 }
@@ -175,6 +216,7 @@ footer nav a {
 
 .row-section {
     display: flex;
+    justify-content: center;
 }
 
 button {
@@ -182,7 +224,7 @@ button {
     padding: 10px 5px 10px 5px;
     font-size: 15px;
     border-radius: 15px;
-    border: 2px solid black;
+    border: 2.5px solid black;
     background: white;
     color: black;
     margin-top: 20px;
@@ -191,7 +233,8 @@ button {
 }
 .column-section {
     width: 400px;
-    margin: 25px;
+    margin-top: 15px;
+    padding: 15px;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
@@ -199,16 +242,30 @@ button {
     border-bottom: 1px dashed black; 
 }
 
+.column-section h2 {
+    margin-top: 15px;
+}
+
 .column-section p {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.bottom-content {
+.bottom-content-about {
     margin: 25px;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
+}
+.top-content-about {
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    border-bottom: 1px dashed black; 
 }
 
 .container-about-page {
