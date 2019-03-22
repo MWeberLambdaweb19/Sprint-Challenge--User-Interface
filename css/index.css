@@ -275,7 +275,14 @@ button {
 }
 
 /* stretch goals css begins here */
+.submission {
+    width: 100%;
+    padding: 20px;
+    background: lightgray;
+    margin-bottom: 25px;
+    resize: vertical;
+}
 
-@keyframes example {
-    to {display: hidden}
+.heightformat {
+    height:600px;
 }
