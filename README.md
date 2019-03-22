@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is *meaningful* code. It provides search engine optimization (SEO),  improves accessibility for screen readers, and makes it much easier for the next developer after you to read your code.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+```display: block;``` and ```display:inline;``` differ in that ```display: block;``` places the item with that property on an entirely new line, whearas ```display: inline;``` keeps the item on the line it was originally placed. Because of this, ```display: inline;``` cannot have a ```width: Xpx;``` or a ```height: Xpx;``` attached to it, while ```display: block;``` can have these attributes.    
 
 3. What are the 4 areas of the box model?
+The four areas of the box model are: 1) Margin, 2) Border, 3) Padding, 4) Content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+The property ```align-items: center``` affects the *cross-axis*, while ```justify-content``` works on the *main-axis*. 
 
 5. Explain why git is valuable to a team of developers.
+Git is valuable because it allows two (ore more) people to work on the same file at the same time. With branching, team members can clone their own forked repository, create their own branch using git, and upload that same branch back to GitHub (or wherever their repositories are stored on the cloud.) for the team lead to review. All of this can be done without altering the origin (master) files, which could prevent unnecessary or unwanted additions and changes to the files. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
