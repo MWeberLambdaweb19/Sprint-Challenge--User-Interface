@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,6 +70,41 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header img {
+    height: 40px;
+    margin-top: 25px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family:'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+header nav img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.jumbo {
+    margin-bottom: 25px;
 }
 
 .top-content {
@@ -111,6 +147,40 @@ p {
     align-items: center;
     justify-content: center;
 }
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
+
+.box.box1 {
+    background: teal;
+}
 
 .bottom-content {
     display: flex;
@@ -129,13 +199,15 @@ p {
 footer {
     width: 100%;
     background: black;
+   
 }
 
 footer nav {
     width: 60%;
+    height: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,4 +215,74 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* begin about page css here */
+
+.row-section {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 35%;
+    padding: 10px 5px 10px 5px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 2.5px solid black;
+    background: white;
+    color: black;
+    margin-top: 20px;
+    font-family: 'Rubik', 'sans-serif';
+    margin-bottom: 20px;
+}
+.column-section {
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+    border-bottom: 1px dashed black;
+}
+
+.column-section h2 {
+    margin-top: 15px;
+}
+
+.column-section p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bottom-content-about {
+    margin: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.top-content-about {
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    border-bottom: 1px dashed black; 
+}
+
+/* stretch goals css begins here */
+.submission {
+    width: 100%;
+    padding: 20px;
+    background: lightgray;
+    margin-bottom: 25px;
+    resize: vertical;
+}
+
+.heightformat {
+    height:600px;
 }
